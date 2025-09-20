@@ -1,7 +1,15 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@import "@fontsource/inter/400.css"; /* Regular */
+@import "@fontsource/inter/500.css"; /* Medium */
+@import "@fontsource/inter/700.css"; /* Bold */
+@import "@fontsource/inter/900.css"; /* Extra Bold */
 
 @custom-variant dark (&:is(.dark *));
+
+body {
+  font-family: 'Inter', sans-serif;
+}
 
 
 @theme inline {
